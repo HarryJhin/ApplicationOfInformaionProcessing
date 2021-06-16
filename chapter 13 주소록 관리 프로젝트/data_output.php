@@ -44,4 +44,3 @@ mysqli_close($connect);
 ⬅︎ [<a href="data_input.php">주소 입력 화면</a>]으로 이동
 </body>
 </html>
-
