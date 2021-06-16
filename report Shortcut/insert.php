@@ -5,10 +5,6 @@ $alt = isset($_POST['alt']) ? 1 : 0;
 $shift = isset($_POST['shift']) ? 1 : 0;
 $hotkey = $_POST['hotkey'];
 
-echo "$ctrl<br>";
-echo "$alt<br>";
-echo "$shift<br>";
-
 $connect = mysqli_connect('localhost', 'root', '');
 mysqli_select_db($connect, 'shortcut_db');
 
